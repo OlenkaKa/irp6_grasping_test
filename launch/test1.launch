@@ -1,0 +1,12 @@
+<launch>
+  <node
+    name="$(anon test1.py)"
+    pkg="irp6_grasping_test"
+    type="test1.py"
+    output="screen" />
+
+  <node
+    name="$(anon rviz_visualization)"
+    pkg="irp6_grasping_test"
+    type="rviz_visualization" />
+</launch>
